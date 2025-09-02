@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#GP{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: wheat;
+    position: absolute;
+    text-align: center;
+}
+
+#parent{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+#child{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
